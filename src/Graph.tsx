@@ -49,7 +49,8 @@ class Graph extends Component<IProps, {}> {
 
       // Add more Perspective configurations here.
       elem.load(this.table);
-      elem.setAttribute('view', 'y_line'),
+      elem.setAttribute('view', 'y_line');
+ 
     }
   }
 
